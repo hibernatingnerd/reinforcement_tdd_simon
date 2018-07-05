@@ -1,9 +1,9 @@
 def echo(thing)
-  "#{thing}"
+  thing
 end
 
 def shout(thing)
-  "#{thing.upcase}"
+  thing.upcase
 end
 
 def repeat(thing, num)
@@ -15,9 +15,9 @@ def repeat(thing, num)
 end
 
 def start_of_word(thing, num)
-  "#{thing[0..(num -1)]}"
+  thing[0..(num -1)]
 end
 
 def first_word(thing)
-  "#{thing.partition(' ').first}"
+  thing.partition(' ').first
 end
